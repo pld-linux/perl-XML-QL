@@ -3,7 +3,7 @@ Summary:	XML-QL perl module
 Summary(pl):	Modu³ perla XML-QL
 Name:		perl-XML-QL
 Version:	0.07
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
