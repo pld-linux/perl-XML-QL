@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	QL
-Summary:	XML-QL perl module
-Summary(pl):	Modu³ perla XML-QL
+Summary:	XML::QL perl module
+Summary(pl):	Modu³ perla XML::QL
 Name:		perl-XML-QL
 Version:	0.07
 Release:	6
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-QL - An XML query language.
+XML::QL - An XML query language.
 
 %description -l pl
-XML-QL - jêzyk zapytañ XML.
+XML::QL - jêzyk zapytañ XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
