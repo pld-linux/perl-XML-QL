@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	QL
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML-QL perl module
 Summary(pl):	Modu³ perla XML-QL
 Name:		perl-XML-QL
 Version:	0.07
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +23,7 @@ XML-QL - An XML query language.
 XML-QL - jêzyk zapytañ XML.
 
 %prep
-%setup -q -n XML-QL-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
