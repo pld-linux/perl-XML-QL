@@ -2,9 +2,9 @@
 Summary:	XML-QL perl module
 Summary(pl):	Modu³ perla XML-QL
 Name:		perl-XML-QL
-Version:	0.06
-Release:	3
-Copyright:	GPL
+Version:	0.07
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/XML-QL-%{version}.tar.gz
