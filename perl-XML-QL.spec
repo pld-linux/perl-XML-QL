@@ -28,7 +28,7 @@ XML::QL - jêzyk zapytañ XML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
