@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	QL
 Summary:	XML::QL perl module
-Summary(pl):	Modu³ perla XML::QL
+Summary(pl.UTF-8):   ModuÅ‚ perla XML::QL
 Name:		perl-XML-QL
 Version:	0.07
 Release:	8
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::QL - An XML query language.
 
-%description -l pl
-XML::QL - jêzyk zapytañ XML.
+%description -l pl.UTF-8
+XML::QL - jÄ™zyk zapytaÅ„ XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
