@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	QL
 Summary:	XML::QL perl module
-Summary(pl.UTF-8):   Moduł perla XML::QL
+Summary(pl.UTF-8):	Moduł perla XML::QL
 Name:		perl-XML-QL
 Version:	0.07
 Release:	8
