@@ -9,7 +9,7 @@ Summary:	XML::QL perl module
 Summary(pl.UTF-8):	Moduł perla XML::QL
 Name:		perl-XML-QL
 Version:	0.07
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
