@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	QL
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::QL perl module
 Summary(pl.UTF-8):	Moduł perla XML::QL
 Name:		perl-XML-QL
